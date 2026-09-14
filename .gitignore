@@ -1,0 +1,15 @@
+# Private uploaded documents
+assets/adopter_doc/*
+assets/shelterdocs/verification/*
+
+# Keep upload folders in the project
+!assets/adopter_doc/.gitkeep
+!assets/shelterdocs/verification/.gitkeep
+
+# Local configuration
+config/.env
+
+# OS / editor files
+Thumbs.db
+.DS_Store
+.vscode/

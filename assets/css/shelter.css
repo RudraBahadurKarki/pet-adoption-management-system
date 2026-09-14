@@ -1,0 +1,149 @@
+.form-control:focus,
+.form-select:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+
+.province-banner {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: scale(3.5);
+        opacity: 0;
+    }
+}
+
+.btn-post-pet {
+    background: #ffcc00;
+    color: #053756;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: block;
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.2);
+}
+
+.btn-post-pet:hover {
+    background: #0b0000;
+    color: #ffffff;
+    border-color: #231c02;
+    transform: scale(1.05);
+}
+
+.simple-blink {
+    animation: gentle-blink 0.5s infinite;
+    background-color: #dc3545 !important;
+    border: none;
+}
+
+@keyframes gentle-blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
+
+.card-custom {
+    border-radius: 1.25rem;
+    border: none;
+}
+
+
+
+.table-hover tbody tr:hover {
+    background-color: #fbfcfe;
+    transition: 0.2s;
+}
+
+.extra-small {
+    font-size: 0.75rem;
+}
+
+.italic {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.badge {
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+}
+
+
+
+.bg-primary-subtle {
+    background-color: #eef2ff;
+}
+
+.italic {
+    font-style: italic;
+    color: #555;
+}
+
+.pet-thumb-modal {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}

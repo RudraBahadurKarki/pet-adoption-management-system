@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #ff6584;
+    --bg-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-light);
+}
+
+/* Navbar Fixing */
+.navbar {
+    background: #fff !important;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #555 !important;
+    padding: 8px 15px !important;
+    transition: 0.3s;
+}
+
+.btn-auth {
+    border-radius: 50px;
+    padding: 8px 25px !important;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-login {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color) !important;
+}
+
+.btn-join {
+    background: var(--primary-color);
+    color: #fff !important;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-auth:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(108, 99, 255, 0.2);
+}
+
+.role-btn {
+    background-color: rgba(108, 99, 255, 0.1);
+    border-radius: 50px;
+    color: var(--primary-color) !important;
+    font-size: 0.9rem;
+}
+
+.blink-notif {
+    animation: status-blink 1s infinite;
+    background-color: #dc3545 !important;
+}
+
+@keyframes status-blink {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 8px #ff0000;
+    }
+}
