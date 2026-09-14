@@ -521,10 +521,7 @@ Possible future improvements include:
 
 BCA Student · Aspiring Full-Stack Developer
 
-### Technologies
-
-`PHP` · `Laravel` · `JavaScript` · `Python` · `MySQL` · `Git` · `GitHub`
 
 ---
 
-> This project was developed as a BCA academic and learning project. It demonstrates the core workflow of a pet adoption platform and can be further improved for security, scalability, validation, notifications, and production deployment.
+> This project was developed as a academic and learning project. It demonstrates the core workflow of a pet adoption platform and can be further improved for security, scalability, validation, notifications, and production deployment.
